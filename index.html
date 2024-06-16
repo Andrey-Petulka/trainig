@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Смена раскладки</h1>
+        <div class="wrap">
+            <div class="wrap__column">Колонка</div>
+            <div class="wrap__row">Ряд</div>
+        </div>
+        <div class="blocks">
+            <div class="card">Карточка 1</div>
+            <div class="card">Карточка 2</div>
+            <div class="card">Карточка 3</div>
+            <div class="card">Карточка 4</div>
+            <div class="card">Карточка 5</div>
+            <div class="card">Карточка 6</div>
+        </div>
+        <div class="color-filters">
+            <label>Цвет текста:
+              <select class="filter color-setting" name="font-color">
+                <option value="inherit" selected>По умолчанию</option>
+                <option value="black">Чёрный</option>
+                <option value="white">Белый</option>
+                <option value="ghostwhite">Светло-серый</option>
+                <option value="pink">Розовый</option>
+                <option value="darkred">Тёмно-красный</option>
+                <option value="darkorange">Оранжевый</option>
+                <option value="saddlebrown">Коричневый</option>
+                <option value="gold">Золотой</option>
+                <option value="greenyellow">Салатовый</option>
+                <option value="forestgreen">Зелёный</option>
+                <option value="aquamarine">Аквамарин</option>
+                <option value="lightskyblue">Небесно-голубой</option>
+                <option value="lightsteelblue">Серо-голубой</option>
+                <option value="darkblue">Тёмно-синий</option>
+                <option value="indigo">Индиго</option>
+                <option value="mediumpurple">Фиолетовый</option>
+                <option value="purple">Пурпурный</option>
+              </select>
+            </label>
+            <label>Цвет фона:
+              <select class="filter background-setting" name="background-color">
+                <option value="inherit" selected>По умолчанию</option>
+                <option value="black">Чёрный</option>
+                <option value="white">Белый</option>
+                <option value="ghostwhite">Светло-серый</option>
+                <option value="pink">Розовый</option>
+                <option value="darkred">Тёмно-красный</option>
+                <option value="darkorange">Оранжевый</option>
+                <option value="saddlebrown">Коричневый</option>
+                <option value="gold">Золотой</option>
+                <option value="greenyellow">Салатовый</option>
+                <option value="forestgreen">Зелёный</option>
+                <option value="aquamarine">Аквамарин</option>
+                <option value="lightskyblue">Небесно-голубой</option>
+                <option value="lightsteelblue">Серо-голубой</option>
+                <option value="darkblue">Тёмно-синий</option>
+                <option value="indigo">Индиго</option>
+                <option value="mediumpurple">Фиолетовый</option>
+                <option value="purple">Пурпурный</option>
+              </select>
+            </label>
+          </div>
+          <input class="size-setting" type="range" min="8" max="48" step="1" value="14">
+          <output class="pixels">14</output>
+          <div class="text">
+            <p class="longread">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident harum possimus sequi culpa temporibus magnam natus distinctio ex aperiam vero neque, asperiores nam maxime eum error officiis voluptate veritatis adipisci sed repellendus? Velit ea ipsam corrupti molestias fuga non possimus tempore exercitationem, eius sapiente sequi animi voluptatibus officia, asperiores dolores dolor repellat? Ad quas autem aliquid nemo eveniet asperiores libero sit voluptatem, accusamus velit temporibus tempore non id numquam ea blanditiis totam eius. Nostrum magni neque enim mollitia repellendus hic eos? Tenetur eaque tempore doloribus, quo cupiditate voluptatum deserunt sit fugiat perferendis itaque hic id minus natus recusandae nam labore excepturi sint libero aliquid pariatur architecto. Quo nisi officiis, aperiam tempore consequatur id ratione eius fugit assumenda dolorum corporis qui cumque nesciunt porro sunt voluptas asperiores voluptatem earum. Ducimus vitae similique saepe, illum facilis suscipit reiciendis odit asperiores quam voluptatibus sed quod corrupti cumque, obcaecati voluptates maxime numquam? Animi et atque aut ducimus quis eaque est placeat sapiente deleniti nostrum, quam iste eligendi ea illum porro velit consequuntur fuga accusantium recusandae fugiat asperiores impedit. Voluptas sit laborum aspernatur aperiam repellendus repellat rem libero inventore, cupiditate architecto laudantium? Vitae, at rerum nam laborum officia mollitia nobis architecto voluptatibus neque fuga!</p>
+            <img src="color.jpg" alt="" class="image">    
+          </div>
+        </p>
+        <iframe width="870" height="489" src="https://www.youtube.com/embed/P4hn15yRWDE" title="Введение в профессию &quot;декоратор&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <form class="reg-form" action="https://echo.htmlacademy.ru/courses" method="post">
+          <label class="reg-label" for="reg-pass">пароль</label>
+          <input class="password" type="password" id="reg-pass" name="reg-pass" placeholder="**********" required >
+          <div class="security">
+            <div class="security-bar"></div>
+          </div>
+          <input class="show-password visually-hidden" type="checkbox" id="show-pass">
+          <label class="checkbox-label" for="show-pass">Показать пароль</label>
+          <button class="button" type="submit">Зарегистрироваться</button>
+        </form>
+    <script src="index.js"></script>
+</body>
+</html>
