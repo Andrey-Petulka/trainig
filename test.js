@@ -1,7 +1,9 @@
-function hello (param){
-    console.log('Тело функции');
-    console.log(param)
-};
-
-// hello.call(null, 'Переопределенный параментр функции');
-setTimeout(() => hello('Результат вызова функции'), 0);
+// for (i = 0; i < 5; i++){
+//     function java(){
+//     console.log("JAVA функция")
+//   }
+// } 
+// java()
+console.log(
+    String(4)
+);
